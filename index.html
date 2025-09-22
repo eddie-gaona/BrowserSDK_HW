@@ -208,7 +208,7 @@
 
   <!-- === Keep your original snippet-style initialization === -->
   <!-- (This exposes global `amplitude` and uses amplitude.init(...)) -->
-  <script src="https://cdn.amplitude.com/script/908235321c62cc725c16c703afcb82e7.js"></script>
+  <script src="https://cdn.amplitude.com/script/API_KEY.js"></script>
   <script>
     // simple UI status helper (replaces earlier amplitude.updateStatus calls)
     const statusEl = document.getElementById('status');
@@ -228,7 +228,7 @@
     });
 
     // --- keep your initialization shape ---
-    amplitude.init('908235321c62cc725c16c703afcb82e7');
+    amplitude.init('API_KEY');
 
     // Example: Page Loaded
     amplitude.track('Page Loaded', {
